@@ -1,0 +1,95 @@
+body{
+    background-image: url(images/bg-intro-desktop.png);
+    height: 100%;
+    font-size: 16px;
+    background-color: hsl(0, 100%, 74%) ;
+}
+.maincontainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    height: 400px;
+    width: 70%;
+    column-gap: 15px;
+    margin: auto;
+}
+.intro{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: inherit;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100%;
+    margin: 20px;
+
+}
+.intro h3{
+    font-weight: 700;
+    text-align: left;
+    width: 100%;
+}
+.intro p{
+    width: 100%;
+    text-align: left;
+    font-weight: 400;
+    font-size: 10px;
+}
+.register{
+    height: inherit;
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 15px;
+    width: 100%;
+    margin: 20px;
+}
+
+.freeboxcontainer{
+    height: 30px;
+    width: 80%;
+    /* margin: auto; */
+    border-radius: 4px;
+    margin: auto;
+    box-shadow: 10px 5px hsl(249, 10%, 26%);
+    background-color: hsl(248, 32%, 49%);
+}
+.freebox{
+    text-align: center;
+    color: #fff;
+    
+}
+.freebox p{
+    font-size: 16px;
+    text-decoration: 0.5 ;
+}
+.freebox p span{
+    font-size: 16px;
+    
+}
+.formboxcontainer{
+    height: 300px;
+    width: 80%;
+    margin: auto;
+}
+.formbox{
+height: inherit;
+background-color: #fff;
+width: 100%;
+display: flex;
+border-radius: 6px;
+justify-content: center;
+align-items: center ;
+}
+.form{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    row-gap: 15px;
+    height: inherit;
+    margin: auto;
+}
+.form input{
+    width: 80%;
+
+}
